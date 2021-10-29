@@ -1,0 +1,37 @@
+{
+  "name": "udemy-pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+#    "url": "git+https://github.com/OvAnSe/udemy-pulse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+#    "url": "https://github.com/OvAnSe/udemy-pulse/issues"
+  },
+#  "homepage": "https://github.com/OvAnSe/udemy-pulse#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "browserslist": "^4.17.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "> 0.2%"
+  ]
+}
