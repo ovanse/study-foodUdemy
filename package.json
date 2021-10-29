@@ -1,5 +1,5 @@
 {
-  "name": "udemy-pulse",
+  "name": "udemy-food",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-#    "url": "git+https://github.com/OvAnSe/udemy-pulse.git"
+    "url": "git+https://github.com/OvAnSe/udemy-food.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-#    "url": "https://github.com/OvAnSe/udemy-pulse/issues"
+    "url": "https://github.com/OvAnSe/udemy-food/issues"
   },
-#  "homepage": "https://github.com/OvAnSe/udemy-pulse#readme",
+  "homepage": "https://github.com/OvAnSe/udemy-food#readme",
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "browserslist": "^4.17.0",
