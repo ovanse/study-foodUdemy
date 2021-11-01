@@ -98,6 +98,7 @@ window.addEventListener('DOMContentLoaded', () => {
         modal.classList.remove('hide');
         document.body.style.overflow = 'hidden';
         clearInterval(modalTimerId);
+        window.removeEventListener('scroll', showModalByScroll); // my variant
     };
             
     function closeModal() {
@@ -129,7 +130,7 @@ window.addEventListener('DOMContentLoaded', () => {
     function showModalByScroll() {
         if (window.scrollY + document.documentElement.clientHeight >= document.documentElement.scrollHeight) {
             openModal();
-            window.removeEventListener('scroll', showModalByScroll);
+            //window.removeEventListener('scroll', showModalByScroll); // his variant
         }
     };
 
