@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     // Таймер
-    const deadLine = '2022-11-01';
+    const deadLine = '2022-02-01';
 
     function getTimeRemaining(endTime) {
         const t = Date.parse(endTime) - Date.parse(new Date()),
