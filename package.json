@@ -1,37 +1,38 @@
 {
-  "name": "udemy-food",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OvAnSe/udemy-food.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OvAnSe/udemy-food/issues"
-  },
-  "homepage": "https://github.com/OvAnSe/udemy-food#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.14",
-    "browserslist": "^4.17.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.3.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-minify": "^3.1.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.1"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "not dead",
-    "> 0.2%"
-  ]
+    "name": "udemy-food",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OvAnSe/udemy-food.git"
+    },
+    "author": "Andrei Ovchinnikov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/OvAnSe/udemy-food/issues"
+    },
+    "homepage": "https://github.com/OvAnSe/udemy-food#readme",
+    "devDependencies": {
+        "browser-sync": "^2.26.14",
+        "browserslist": "^4.17.6",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-cli": "^2.3.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-minify": "^3.1.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.1",
+        "json-server": "^0.17.0"
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not dead",
+        "> 0.2%"
+    ]
 }
